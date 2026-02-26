@@ -61,4 +61,3 @@ msg = stdin.readLineSync();
 }while(msg =='s'|| msg=='S');
 print('Finalizando calculadora');
 }
-
