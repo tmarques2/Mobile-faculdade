@@ -1,4 +1,4 @@
-// 1. Classe abstrata Máquina Industrial
+//Classe abstrata
 abstract class MaquinaIndustrial {
   String nome;
   double potencia;
@@ -6,12 +6,10 @@ abstract class MaquinaIndustrial {
 
   MaquinaIndustrial(this.nome, this.potencia, this.status);
 
-  // Métodos abstratos [cite: 187]
   void ligar();
   void desligar();
 }
 
-// 2. Subclasse Prensa [cite: 188]
 class Prensa extends MaquinaIndustrial {
   double pressaoToneladas;
 
@@ -33,7 +31,6 @@ class Prensa extends MaquinaIndustrial {
   }
 }
 
-// 2. Subclasse Robô Solda [cite: 189]
 class RoboSolda extends MaquinaIndustrial {
   String tipoSolda;
 
