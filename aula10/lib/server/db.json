@@ -1,0 +1,47 @@
+{
+  "produtos": [
+    {
+      "id": "0",
+      "nome": "Chocolate",
+      "valor": "5.50",
+      "qtde": "3"
+    },
+    {
+      "id": "1",
+      "nome": "Shampoo",
+      "valor": "20.50",
+      "qtde": "7"
+    },
+    {
+      "id": "MI-K2Ce_2xQ",
+      "nome": "Nintendo Switch 2",
+      "valor": "4500",
+      "qtde": "3"
+    },
+    {
+      "id": "8jiSO5d8ArE",
+      "nome": "Xbox Series X",
+      "valor": "3500",
+      "qtde": "4"
+    },
+    {
+      "id": "xvSoqHSGcLo",
+      "nome": "rebeca",
+      "valor": "10",
+      "qtde": "1"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "0001",
+      "login": "senai",
+      "senha": "123"
+    },
+    {
+      "id": "B0jEMy2ySXA",
+      "login": "thai",
+      "senha": "123"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
